@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="./style/crear_cuenta.css">
+    <title>Crear una cuenta</title>
+    <style>
+        body{
+    font-family: Arial;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    color: white;
+    font-size: 20px;
+    position:relative;
+    border-radius: 10PX;
+    height:600px;
+    width:500px;
+    margin:100px auto;
+    background-color:indigo;
+   /* box-shadow:20px 25px chartreuse;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 34%;
+    transform: translate(-50%, -50%);
+}
+.self{
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 7px;
+    width: 280px;
+}
+.btn{
+    position: relative;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+ }
+ .titul{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+    </style>
+   
+</head>
+
+
+<body>
+    <div class="contenedor">
+        <h5 id="titulo" class ="titul">Crea una cuenta</h5>
+
+    <form action="/action_page.php">
+        <label for="lname">Email</label><br>
+        <input type="email"  class="self" id="lemail" name="lemail"><br><br>      
+        <label for="fname">Nombre de usuario</label><br>
+        <input type="text"  class="self"id="fname" name="fname"><br><br>
+        <label for="iname" >Nombre</label><br>
+        <input type="text" class="self" id="iname" name="iname"><br><br>
+        <label for="lsurname" >Apellido</label><br>
+        <input type="text" class="self" id="lsurname" name="lname"><br><br>
+        <label for="lpass">Contraseña</label><br>
+        <input type="password" class="self" id="lpass" name="lpass"><br><br>
+     
+       
+        <input type="button" class="btn" onclick="alert('CUENTA CREADA CON EXITO!!!!!');" value="Confirmar">
+        
+    </div>
+</body>
+
+</html>

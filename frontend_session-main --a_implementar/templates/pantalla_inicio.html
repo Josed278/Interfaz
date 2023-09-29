@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="./style/pantalla_inicio.css">
+    <title>Pantalla de inicio</title>
+    <style>
+        body{
+    font-family: Arial;
+    background-color: black;
+   
+}
+.mensaje{
+    color: white;
+    background-color: indigo;
+    border-radius: 10px;
+    color:white;
+    font-size: 30px;
+    padding: 20px;
+    width: 1060px;
+    height: 550px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.añadir_explorar{
+    color: white;
+    background-color: indigo;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 550px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+
+}
+.Btn{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+.logeado{
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-image: url(simple-avatar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+
+    </style>
+   
+</head>
+<body>
+    <div class="mensaje"
+        <h1>Aún no te has unido a un servidor.<br><br><br>
+            Intentar buscar uno o crea uno propio.
+        </h1>
+    </div>
+    <div class="añadir_explorar">
+
+
+        <a herf="unirse_a_servidor.html">
+        <button type="button" class="btn">Añadir servidor</button>
+        </a>
+        <button type="submit" class="Btn" id="boton">Explorar servidor</button>
+        <a href="mi_perfil.html">
+        <button type="button" class="logeado" id="logout"><img src="simple-avatar" alt="x"/></button>
+        </a>
+    </div>
+    
+</body>
+</html>

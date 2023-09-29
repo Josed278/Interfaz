@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="./style/mi_perfil.css">
+    <title>Mi perfil</title>
+
+ <style>
+    .contenedor{
+    background-color: rgb(29, 28, 28);
+    width: 99vw;
+    height: 99vh;
+    position: relative;
+   /* display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relativa;
+    left: 50%;
+    top:50%;*/
+   
+}
+.conteiner{
+    background-color: aliceblue;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+    border-radius: 10px;
+    
+}
+.datos{
+    color: black;
+    width: 300px;
+    height: 200px;
+    background-color: indigo;
+    padding: 25px;
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    box-sizing: 2px solid black;
+   
+  
+} 
+.datos .nome{
+    width: 230px;
+    border-radius: 8px;
+} 
+.datos .nom{
+    width: 230px;
+    border-radius: 8px;
+} 
+.datos .apellido{
+    width: 230px;
+    border-radius: 8px;
+}
+.datos .mail{
+    width: 230px;
+    border-radius: 8px;
+}
+.datos .pass{
+    width: 230px;
+    border-radius: 8px;
+}
+.conteiner p input{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+.contenedor h1{
+    color:aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+   left: 45%;
+    top: 5%;
+}
+.contenedor h2{
+    color:aliceblue;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+   
+}
+.contenedor .btn-changer{
+    position: absolute;
+    left: 40%;
+    top: 90%;
+}
+
+ </style>
+</head>
+
+    
+
+
+<div class="contenedor">
+    <h1>Mi perfil</h1>
+    <div class="conteiner">
+    
+        <p><input type="image" src="simple-avatar.png"></p>
+        
+        <div class="datos">
+            <input  class="nome" type="text" name="text" placeholder="Nomre de usuario">
+            <button class="btn">editar</button><br><br>
+            <input class="nom" type="text" name="text" placeholder="Nombre">
+            <button class="btn">editar</button><br><br>
+            <input class="apellido" type="text" name="text" placeholder="Apellido">
+            <button class="btn">editar</button><br><br>
+            <input  class="mail" type="email" name="text" placeholder="Correo electronico">
+            <button class="btn">editar</button><br><br>
+    
+        </div>
+        
+    </div>
+    
+    <h2>Contraseña</h2>
+    <a href="cambiar_contraseña.html">
+    
+    <button class="btn-changer">Cambiar contraseña</button>
+    </a>
+</div> 
+ 
+</body>
+</html>

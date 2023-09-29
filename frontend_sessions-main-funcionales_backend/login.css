@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    background-color: black;
+    box-sizing: border-box;
+}
+form{
+    background-color: indigo;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    /*margin: 130px auto;*/
+    width: 450px;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    position: relative;
+}
+form{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+.field{
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    
+    
+}
+.btn{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+    width: 290px;
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+.pie{
+    font-size: 17px;
+}
+.Bbn{
+    cursor: pointer;
+}

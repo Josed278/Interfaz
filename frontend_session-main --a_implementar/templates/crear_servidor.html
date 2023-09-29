@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+    font-family: Arial;
+    background-color: black;
+    box-sizing: border-box;
+}
+.container{
+    background-color: indigo;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    /*margin: 130px auto;*/
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.NomSer{
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 7px;
+    width: 280px;
+    text-align: center;
+}
+.btnConf{
+    text-align: left;
+}
+.btnCanc{
+    text-align: right;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="crear_servidor.css">
+    <title>Crear un servidor</title>
+       
+</head>
+<body> 
+        <div class="container">
+            <h2 class="titulInSe">Craer un servidor</h2>
+            <label for="nombre">Nombre del nuevo servidor</label>
+            <input type="text" class="NomSer" id="nombre" name="nombre" required><BR>
+        
+            <button type="submit" class="btnConf">Confirmar</button>
+            <button type="button" class="btnCanc">Cancelar</button>
+        
+        </div>
+         
+
+</body>
+</html>

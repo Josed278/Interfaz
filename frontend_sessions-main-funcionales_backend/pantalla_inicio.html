@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel = "stylesheet" href ="pantalla_inicio.css"> -->
+    <title>Pantalla de inicio</title>
+<style>
+    body{
+        font-family: Arial;
+        background-color: black;
+       
+    }
+    .mensaje{
+        border: 3px solid white;
+        color: white;
+        background-color: indigo;
+        border-radius: 10px;
+        color:white;
+        font-size: 20px;
+        padding: 20px;
+        width: 1060px;
+        height: 550px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 60%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .añadir_explorar{
+        border: 3px solid white;
+        color: white;
+        background-color: indigo;
+        border-radius: 10px;
+        color:white;
+        font-size: 20px;
+        padding: 20px;
+        width: 200px;
+        height: 550px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .btn{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .Btn{
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .logeado{
+        font-size: 30px;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -50%);
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+</style>
+    
+   
+</head>
+<body>
+    <div class="mensaje"
+        <h2>Aún no te has unido a un servidor.<br><br><br>
+            Intentar buscar uno o crea uno propio.
+        </h2>
+        <div class="añadir_explorar">
+        
+            <button type="submit" class="btn">Añadir servidor</button><br>
+            <button type="submit" class="Btn" id="boton">Explorar servidor</button>
+            <!-- <button type="button" class="logeado" id="logout">null</button> -->
+            <button type="submit" class="logeado" id="logout" onclick="redirectPantallaperfile()">user</button>
+            <!-- <button type="button" class="Bbn" id="boton" onclick="redirectPantallaperfile()">user</button><br><br>
+        </div> -->
+
+
+
+
+    </div>
+        
+    <script src="pantalla_inicio.js"></script>
+
+    <script>
+        function redirectPantallaperfile() {
+            window.location.href = "profile.html";
+        }
+    </script>
+  
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="./style/cambiar_contraseña.css">
+    <title>Cambiar contraseña</title>
+    <style>
+        body{
+    font-family: Arial;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    color: white;
+    font-size: 20px;
+    position:relative;
+    border-radius: 10PX;
+    height:500px;
+    width:400px;
+    margin:100px auto;
+    background-color:indigo;
+   /* box-shadow:20px 25px chartreuse;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+.self{
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 7px;
+    width: 280px;
+}
+.btn{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+ }
+ .titul{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+ 
+    </style>
+      
+</head>
+<body>
+    <div class="contenedor">
+        <h5 id="titulo" class ="titul">Cambiar contraseña</h5>
+
+    <form action="/action_page.php">
+        <label for="lname">Contraseña actual</label><br>
+        <input type="email"  class="self" id="lemail" name="lemail"><br><br>      
+        <label for="fname">Nueva contraseña</label><br>
+        <input type="text"  class="self"id="fname" name="fname"><br><br>
+        <label for="iname" >Confirmar contraseña</label><br>
+        <input type="text" class="self" id="iname" name="iname"><br><br>
+
+        <button type="submit" >Confirmar</button>
+        <button type="button" >Cancelar</button>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+body{
+    font-family: Arial;
+    background-color: black;
+   
+}
+.mensaje{
+    color: white;
+    background-color: indigo;
+    border-radius: 10px;
+    color:white;
+    font-size: 30px;
+    padding: 20px;
+    width: 1060px;
+    height: 550px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.añadir_explorar{
+    color: white;
+    background-color: indigo;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 550px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+
+}
+.Btn{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+.logeado{
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-image: url(simple-avatar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
